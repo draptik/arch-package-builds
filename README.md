@@ -11,12 +11,13 @@
 
 ## Mob.sh
 
-There is already a package named [mob](TODO) but it is something completely different. I'll use the
+[Mob.sh](https://github.com/remotemobprogramming/mob) is a Go program to ease git handovers during remote mob programming.
+
+There is already an AUR package named [mob](https://aur.archlinux.org/packages/mob/) (and
+[mob-bin](https://aur.archlinux.org/packages/mob-bin/)) but it is something completely different. I'll use the
 package name `mobsh` instead.
 
-Mob.sh is a Go program to ease git handovers during remote mob programming.
-
-Mob.sh upstream provides a binaries at
+[Mob.sh](https://github.com/remotemobprogramming/mob) upstream provides binaries at
 [https://github.com/remotemobprogramming/mob/releases](https://github.com/remotemobprogramming/mob/releases).
 
 Per AUR convention I'll name the package `mobsh-bin`.
@@ -25,4 +26,10 @@ Dependencies:
 
 - Git
 - TODO Does the binary still require Go?
+
+### Licensing
+
+The provided `mob.sh` `tar.gz` file only includes the binary, not the license. To also include the
+license in the AUR package, I download it from the sources. No sure if this is the idiomatic way of
+doing this...
 
