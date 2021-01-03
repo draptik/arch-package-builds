@@ -17,6 +17,8 @@ There is already an AUR package named [mob](https://aur.archlinux.org/packages/m
 [mob-bin](https://aur.archlinux.org/packages/mob-bin/)) but it is something completely different. I'll use the
 package name `mobsh` instead.
 
+### mobsh-bin
+
 [Mob.sh](https://github.com/remotemobprogramming/mob) upstream provides binaries at
 [https://github.com/remotemobprogramming/mob/releases](https://github.com/remotemobprogramming/mob/releases).
 
@@ -26,9 +28,13 @@ Dependencies:
 
 - Git
 
-### Licensing
+#### Licensing
 
 The provided `mob.sh` `tar.gz` file only includes the binary, not the license. To also include the
 license in the AUR package, I download it from the sources. No sure if this is the idiomatic way of
 doing this...
+
+### mobsh
+
+TODO: Build from sources...
 
