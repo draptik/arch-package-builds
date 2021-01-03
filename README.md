@@ -25,7 +25,6 @@ Per AUR convention I'll name the package `mobsh-bin`.
 Dependencies: 
 
 - Git
-- TODO Does the binary still require Go?
 
 ### Licensing
 
