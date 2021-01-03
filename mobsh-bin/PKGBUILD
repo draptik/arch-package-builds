@@ -8,6 +8,8 @@ arch=('x86_64')
 url="https://github.com/remotemobprogramming/mob"
 license=('MIT')
 depends=("git")
+optdepends=('espeak-ng-espeak: Multi-lingual software speech synthesizer'
+            'mbrola-voices-us1: An American English female voice for the MBROLA synthesizer')
 provides=('mobsh')
 conflicts=('mobsh' 'mob')
 
