@@ -24,7 +24,7 @@ package name `mobsh` instead.
 
 Per AUR convention I'll name the package `mobsh-bin`.
 
-Dependencies: 
+Dependencies:
 
 - Git
 
@@ -36,5 +36,6 @@ doing this...
 
 ### mobsh
 
-TODO: Build from sources...
+Same as `mobsh-bin` but built directly from sources.
 
+Resources for packaging Arch Go packages: [https://wiki.archlinux.org/index.php/Go_package_guidelines](https://wiki.archlinux.org/index.php/Go_package_guidelines)
