@@ -31,7 +31,7 @@ Dependencies:
 #### Licensing
 
 The provided `mob.sh` `tar.gz` file only includes the binary, not the license. To also include the
-license in the AUR package, I download it from the sources. No sure if this is the idiomatic way of
+license in the AUR package, I download it from the sources. Not sure if this is the idiomatic way of
 doing this...
 
 ### mobsh
