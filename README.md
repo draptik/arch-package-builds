@@ -34,6 +34,10 @@ The provided `mob.sh` `tar.gz` file only includes the binary, not the license. T
 license in the AUR package, I download it from the sources. Not sure if this is the idiomatic way of
 doing this...
 
+Turns out, it's not. Future builds will have the license included in the tarball:
+
+https://github.com/remotemobprogramming/mob/pull/109
+
 ### mobsh
 
 Same as `mobsh-bin` but built directly from sources.
