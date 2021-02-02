@@ -28,7 +28,48 @@ Dependencies:
 
 - Git
 
-#### Licensing
+#### v1.2.0
+
+Updates to `PKGBUILD`:
+
+- bump version number (`pkgver`)
+- improve description (`pkgdesc`)
+- update `sha256sums`:
+    - manually download https://github.com/remotemobprogramming/mob/archive/v1.2.0.tar.gz
+    - `sha256sum <downloaded-file.tar.gz>` outputs value for field `sha26sums`
+
+##### Test
+
+Create package:
+
+```sh
+mkdir ~/tmp/foo && cd ~/tmp/foo
+cp <new-PKGBUILD> .
+
+# Create the package using `makepkg`
+makepkg
+```
+
+Install system-wide:
+
+```sh
+yay -U *.zst
+```
+
+Uninstall:
+
+```sh
+yay -R mobsh
+```
+
+##### Publishing
+
+- switch to AUR git repo
+- copy new `PKGBUILD`
+- create `.SRCINFO` file: `makepkg --printsrcinfo > .SRCINFO`
+- git commit and push
+
+#### Licensing (outdated as of v1.2.0)
 
 The provided `mob.sh` `tar.gz` file only includes the binary, not the license. To also include the
 license in the AUR package, I download it from the sources. Not sure if this is the idiomatic way of
@@ -43,3 +84,45 @@ https://github.com/remotemobprogramming/mob/pull/109
 Same as `mobsh-bin` but built directly from sources.
 
 Resources for packaging Arch Go packages: [https://wiki.archlinux.org/index.php/Go_package_guidelines](https://wiki.archlinux.org/index.php/Go_package_guidelines)
+
+### v1.2.0
+
+Updates to `PKGBUILD`:
+
+- bump version number (`pkgver`)
+- improve description (`pkgdesc`)
+- update `md5sums`:
+    - download https://github.com/remotemobprogramming/mob/releases/download/v1.2.0/mob_v1.2.0_linux_amd64_checksum.txt
+    - copy value from text file to field `md5sums
+
+#### Test
+
+Create package:
+
+```sh
+mkdir ~/tmp/foo && cd ~/tmp/foo
+cp <new-PKGBUILD> .
+
+# Create the package using `makepkg`
+makepkg
+```
+
+Install system-wide:
+
+```sh
+yay -U *.zst
+```
+
+Uninstall:
+
+```sh
+yay -R mobsh
+```
+
+#### Publishing
+
+- switch to AUR git repo
+- copy new `PKGBUILD`
+- create `.SRCINFO` file: `makepkg --printsrcinfo > .SRCINFO`
+- git commit and push
+
