@@ -28,15 +28,20 @@ Dependencies:
 
 - Git
 
+#### v1.3.0
+
+Updates to `PKGBUILD`:
+
+- bump version number (`pkgver`)
+- update `md5sums_x86_64`
+
 #### v1.2.0
 
 Updates to `PKGBUILD`:
 
 - bump version number (`pkgver`)
 - improve description (`pkgdesc`)
-- update `sha256sums`:
-    - manually download https://github.com/remotemobprogramming/mob/archive/v1.2.0.tar.gz
-    - `sha256sum <downloaded-file.tar.gz>` outputs value for field `sha26sums`
+- update `md5sums_x86_64`
 
 ##### Test
 
@@ -85,6 +90,10 @@ Same as `mobsh-bin` but built directly from sources.
 
 Resources for packaging Arch Go packages: [https://wiki.archlinux.org/index.php/Go_package_guidelines](https://wiki.archlinux.org/index.php/Go_package_guidelines)
 
+### v1.3.0
+
+Skipped, because it enforces usage of outdated go version (1.15)
+
 ### v1.2.0
 
 Updates to `PKGBUILD`:
@@ -125,4 +134,3 @@ yay -R mobsh
 - copy new `PKGBUILD`
 - create `.SRCINFO` file: `makepkg --printsrcinfo > .SRCINFO`
 - git commit and push
-
