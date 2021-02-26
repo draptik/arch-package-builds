@@ -31,11 +31,11 @@ build() {
   go build -o build mob.go
 }
 
-check() {
-  cd "mob-$pkgver"
-  ./create-testbed
-  go test
-}
+# check() {
+#   cd "mob-$pkgver"
+#   ./create-testbed
+#   go test
+# }
 
 package() {
   cd "mob-$pkgver"

@@ -92,7 +92,9 @@ Resources for packaging Arch Go packages: [https://wiki.archlinux.org/index.php/
 
 ### v1.3.0
 
-Skipped, because it enforces usage of outdated go version (1.15)
+~~Skipped, because it enforces usage of outdated go version (1.15)~~
+
+Skipped tests in package build.
 
 ### v1.2.0
 
