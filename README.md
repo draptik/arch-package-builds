@@ -28,6 +28,14 @@ Dependencies:
 
 - Git
 
+#### v1.4.0
+
+Updates to `PKGBUILD`:
+
+- bump version number (`pkgver`)
+- update `md5sums_x86_64`
+- improve description (`pkgdesc`)
+
 #### v1.3.0
 
 Updates to `PKGBUILD`:
