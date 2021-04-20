@@ -28,7 +28,7 @@ Dependencies:
 
 - Git
 
-##### v1.5.0
+#### v1.5.0
 
 Updates to `PKGBUILD`:
 
