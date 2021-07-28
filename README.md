@@ -28,7 +28,23 @@ Dependencies:
 
 - Git
 
-#### v1.6.0
+### v1.8.0
+
+Updates to `PKGBUILD`:
+
+- bump version number (`pkgver`)
+- update `md5sums_x86_64`
+
+
+### v1.7.0
+
+Updates to `PKGBUILD`:
+
+- bump version number (`pkgver`)
+- update `md5sums_x86_64`
+
+
+### v1.6.0
 
 Updates to `PKGBUILD`:
 
