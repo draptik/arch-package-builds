@@ -103,7 +103,7 @@ yay -U *.zst
 Uninstall:
 
 ```sh
-yay -R mobsh
+yay -R mobsh-bin
 ```
 
 ##### Publishing
