@@ -24,6 +24,14 @@ curl "${BASEURL}${BINARYFILE}" --location --output "${BINARYFILE}"
 curl "${BASEURL}${CHECKSUMFILE}" --location --output "${CHECKSUMFILE}"
 CHECKSUM=$(awk '$0' "${CHECKSUMFILE}")
 
+## confirm checksum
+ACTUAL_CHECKSUM=$(md5sum "${BINARYFILE}" | awk '{print $1}')
+
+if [ "${CHECKSUM}" != "${ACTUAL_CHECKSUM}" ]; then
+  echo "Checksum mismatch. Expected: ${CHECKSUM}. Actual checksum is: ${ACTUAL_CHECKSUM}."
+  exit 1
+fi
+
 ## create PKGBUILD
 cat <<EOF > PKGBUILD
 # Maintainer: Patrick Drechsler <socialcoding at pdrechsler dot de>

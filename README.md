@@ -28,6 +28,10 @@ Dependencies:
 
 - Git
 
+### v1.9.0
+
+From now on version upgrades will only be noted here if the build pattern changes (see folder `scripts` for details).
+
 ### v1.8.0
 
 Updates to `PKGBUILD`:
