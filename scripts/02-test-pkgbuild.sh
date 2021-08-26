@@ -8,6 +8,8 @@ fi
 
 TESTDIR=../../test/
 
+rm -rf ${TESTDIR}/*
+
 cp PKGBUILD $TESTDIR
 cd $TESTDIR || exit 2
 
