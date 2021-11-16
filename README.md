@@ -11,6 +11,12 @@
 
 ## Mob.sh
 
+***2021-11-16: The mob.sh AUR package is handled by upstream using a github action. The rest of the
+README is just a reference...***
+
+Upstream Github Action:
+https://github.com/remotemobprogramming/mob/blob/main/.github/workflows/release.yaml
+
 [Mob.sh](https://github.com/remotemobprogramming/mob) is a Go program to ease git handovers during remote mob programming.
 
 There is already an AUR package named [mob](https://aur.archlinux.org/packages/mob/) (and
